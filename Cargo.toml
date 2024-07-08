@@ -2,5 +2,9 @@
 name = "file-auto-rename"
 version = "0.1.0"
 edition = "2021"
+description = "文件重名工具"
 
 [dependencies]
+cargo-bundle = "0.6.0"
+clap = "4.5.8"
+md5 = "0.7.0"
